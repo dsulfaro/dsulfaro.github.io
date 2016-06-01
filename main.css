@@ -180,26 +180,17 @@ a:hover{
 
   
 #contactMe{
-	padding-top:50px;
-	height:500px;
-	background-color: #14213D;
-}
-
-#a{
-	margin-left: 45%;
-}
-#b{
-	margin-left: 50%;
-}
-#c{
-	margin-left: 55%;
-}
-#d{
-	margin-left: 60%;
+	height:80px;
+	background-color: black;
 }
 
 .temp{
 	color: white;
+}
+
+#social{
+	padding-top: 1%;
+	margin-left: 10%;
 }
 
 #idk{
