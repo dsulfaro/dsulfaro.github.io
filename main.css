@@ -61,6 +61,8 @@ html, body{
 
 
 
+
+
 #education{
 	padding-top:20px;
 	background-color: #FFFFFF;
@@ -121,6 +123,9 @@ a:hover{
 
 
 
+
+
+
 #portfolio{
 	padding-top:20px;
 	background-color: #E5E5E5;
@@ -129,11 +134,10 @@ a:hover{
 
 .project{
 	background-color: #14213D;
-	width: 380px;
-	height: 480px;
 	text-align: center;
-	margin-bottom: 30px;
 	border-radius: 20px;
+	margin-right: 5%;
+	margin-bottom: 1%;
 }
 
 .project > h2{
@@ -171,6 +175,9 @@ a:hover{
 .link:hover{
 	color: #222;
 }
+
+
+
 
 
   
