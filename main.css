@@ -169,13 +169,9 @@ a:hover{
 	color: white;
 }
 
-
-#email{
-	text-align: center;
-}
-
   
 #contactMe{
+	padding-top: 10px;
 	background-color: black;
 }
 li{
