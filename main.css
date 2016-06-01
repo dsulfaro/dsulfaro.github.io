@@ -136,8 +136,7 @@ a:hover{
 	background-color: #14213D;
 	text-align: center;
 	border-radius: 20px;
-	margin-right: 5%;
-	margin-bottom: 1%;
+	height: 400px;
 }
 
 .project > h2{
