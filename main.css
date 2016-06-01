@@ -124,7 +124,9 @@ a:hover{
 
 
 
-
+.header{
+	text-align: center;
+}
 
 #portfolio{
 	padding-top:20px;
@@ -133,11 +135,20 @@ a:hover{
 	padding-bottom: 50px;
 }
 
+#portfolio > h2{
+	text-align: center;
+}
+
+#portDesc{
+	padding: 20px;
+}
+
 .project{
 	background-color: #14213D;
 	text-align: center;
 	border-radius: 20px;
-	height: 400px;
+	height: 500px;
+	border: 10px solid #e5e5e5;
 }
 
 .project > h2{
@@ -156,10 +167,19 @@ a:hover{
 	border: 3px solid white;
 }
 
+.android{
+	height: 300px;
+	width: 200px;
+}
+
 .project > p{
 	color: white;
-	font-size: 19px;
+	font-size: 23px;
 	margin-top: 5px;
+}
+
+#g{
+	color: orange;
 }
 
 a{
