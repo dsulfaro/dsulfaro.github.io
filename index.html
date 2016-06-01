@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+	<head>
+		<title>Dan Sulfaro's Portfolio</title>
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+		<!-- jQuery library -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+		<!-- Latest compiled JavaScript -->
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+		<script src="main.js"></script>
+		<link rel="stylesheet" type="text/css" href="main.css">
+		<link rel="stylesheet" href="font-awesome.min.css">
+		<script src="https://use.fontawesome.com/b4c97f66e3.js"></script>
+
+	</head>
+
+	<body data-spy="scroll" data-target=".navbar" data-offset="50">
+		<nav class="navbar navbar-inverse navbar-fixed-top" id="nav">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="myNavbar">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#" id="myName">Dan Sulfaro</a>
+				</div><!--navbar-header-->
+				<div class="collapse navbar-collapse" id="myNavbar">
+					<ul class="nav navbar-nav">
+						<li><a href="#aboutMe" class="navbox">About Me</a></li>
+						<li><a href="#education" class="navbox">Education</a></li>
+						<li><a href="#portfolio" class="navbox">Portfolio</a></li>
+						<li><a href="#poop" class="navbox">Contact Me</a></li>
+					</ul>
+				</div>
+			</div><!--container fluid-->
+		</nav>
+
+
+<div id="aboutMe" class="container-fluid parallax">
+	<div class="row">
+		<div class="col-md-2 col-md-offset-3">
+			<a href="https://www.facebook.com/dan.sulfaro" target="_blank"><img src="images/profile.jpeg" id="profile"></a>
+		</div>
+		<div class="col-md-4" id="aboutMeBox">
+			<h1>Hello, everyone!</h1>
+			<h3>Welcome to my website! My name is Dan, and I'm a linguist turned programmer from Michigan. While attending school, I thought "Hmm..Spanish and Italian are cool, so let's learn some computer languages too!" and a passion was born. Or discovered? At any rate, I hope this website gives you a comprehensive overview of my formal and not-so-formal education.</h3>
+		</div>
+	</div>
+</div>
+
+
+<div id="education" class="container-fluid">
+	<h2 id="edTitle">Education - <a id="school" href="http://www.topuniversities.com/universities/university-michigan" target="_blank">University of Michigan</a> - Bachelors in Spanish Linguistics and Italian Language and Literature, Computer Science Minor - GPA > 3.5</h2>
+	<h2 class="coursework">Relevant Coursework:</h2>
+	<div class="row">
+		<a href="https://www.eecs.umich.edu/courses/eecs281/syllabus/" target="_blank"><div class="col-md-4 col-md-offset-2">
+			<h2 class="course">EECS 281 - Algorithms and Data Structures</h2></a>
+			<ul class="study">
+				<li>Introduction to algorithm analysis and O-notation</li>
+				<li>Fundamental data structures including lists, stacks, queues, priority queues, hash tables, binary trees, search trees, balanced trees and graphs</li>
+				<li>Searching and sorting algorithms,recursive algorithms, basic graph algorithms, introduction to greedy algorithms and divide and conquer strategy</li>
+			</ul>
+		</div>
+		<a href="http://web.eecs.umich.edu/~dkoutra/courses/W16_484/" target="_blank"><div class="col-md-4">
+			<h2 class="course">EECS 484 - Database Management Systems</h2></a>
+			<ul class="study">
+				<li>How to design a DBMS, store data for real-world scenarios, and develop applications that communicate with the DBMS</li>
+				<li>How to analyze data by "asking" appropriate queries and how DBMSs are able to store massive datasets and support efficient query handling.</li>
+				<li>The internal design of DBMSs that makes them robust to system failures and supports concurrent data accesses</li>
+			</ul>
+		</div>	
+	</div>
+	<h2 class="coursework">Languages:</h2>
+	<ul id="languages">
+		<li>C++</li>
+		<li>Java</li>
+		<li>SQL</li>
+		<li>Python</li>
+		<li>Ruby</li>
+		<li>Rails</li>
+		<li>HTML</li>
+		<li>CSS</li>
+		<li>Bootstrap</li>
+		<li>Javascript</li>
+		<li>jQuery</li>
+		<li>Angular</li>
+		<li>PHP</li>
+	</ul>
+</div>
+
+
+<div id="portfolio" class="container-fluid">
+	<h1>Portfolio</h1>
+	<div class="row r">
+		<a href="http://codepen.io/dsulfaro/full/eZoWRZ/" target="_blank" class="link"><div class="col-md-3 col-md-offset-1 project">
+			<h2 id="idk">Quote Generator</h2>
+			<img src="images/quotes.jpeg">
+			<p>Presents a random quote every time the user presses the generate button. A tweet button also allows the user to tweet the quote to their twitter account. I used the API from quotesondesign.com, but I've also built a web scraper in Ruby that scrapes the quote of the day.</p>
+		</div></a>
+		<a href="http://codepen.io/dsulfaro/full/ZWZPaX/" target="_blank"><div class="col-md-3 col-md-offset-1 project">
+			<h2>Weather App</h2>
+			<img src="images/weather.jpeg">
+			<p>Gets the user's location, displays it on the screen, and then used that information to display the weather for that location. This app makes two different API calls, and the background image dynamically changes depending on the weather. I also built an Android app that accomplishes the same thing.</p>
+		</div></a>
+		<a href="http://codepen.io/dsulfaro/full/yOWpdG/" target="_blank"><div class="col-md-3 col-md-offset-1 project">
+			<h2>Wikipedia Viewer</h2>
+			<img src="images/wikipedia.jpeg">
+			<p>With this app, the user can either click a button and be taken to a random wikipedia page, or they can search for anything their heart desires. This app utilizes the wikipedia API.</p>
+		</div></a>
+	</div>
+	<div class="row r">
+		<a href="http://codepen.io/dsulfaro/full/BKXYEx/" target="_blank"><div class="col-md-3 col-md-offset-1 project">
+			<h2>TwitchTV Channel Display</h2>
+			<img src="images/twitch.jpeg">
+			<p>Using this app, the viewer can see current twitch channels that are streaming as well as the content that they are showcasing. The channel names are in a predermined array which can be easily modified to show more or less channels. Channels that are streaming are displayed at the top.</p>
+		</div></a>
+		<a href="http://codepen.io/dsulfaro/full/oLNjOG/" target="_blank"><div class="col-md-3 col-md-offset-1 project">
+			<h2>Javascript Calculator</h2>
+			<img src="images/calculator.jpeg">
+			<p>Not much to say about this app...it's a calculator!  It can do the four basic operations, and the user can string them together to evaluate more complicated expressions. The buttons also change color. Neat!</p>
+		</div></a>
+		<a href="http://codepen.io/dsulfaro/full/MeWeJR/" target="_blank"><div class="col-md-3 col-md-offset-1 project">
+			<h2>Pomodoro Clock</h2>
+			<img src="images/clock.jpeg">
+			<p>A pomodoro clock is a tool used to increase productivity. The idea is that one sets an amount of time (default 25 minutes) to work on something and then an extra few minutes as a break, and this app does just that. The user can input any time they wish for both the break and the work session.</p>
+		</div></a>
+	</div>
+	<div class="row r">
+		<a href="http://codepen.io/dsulfaro/full/OXJjMd/" target="_blank"><div class="col-md-3 col-md-offset-1 project">
+			<h2>TicTac2.0</h2>
+			<img src="images/tic.jpeg">
+			<p>I'm just gonna lay this out there: I think TicTacToe is a dumb game. It can end in a draw, and the person who goes first has a huge advantage. That's why I made an updated version of the game. Good luck against my super smart AI (Hint: it chooses squares at random...)</p>
+		</div></a>
+		<a href="http://codepen.io/dsulfaro/full/XKWErQ/" target="_blank"><div class="col-md-3 col-md-offset-1 project">
+			<h2>Simon Says</h2>
+			<img src="images/simon.jpeg">
+			<p>It's that game you know and love! The game features two modes: normal which uses the same pattern and strict which changes the pattern whenever the player messes up. Getting the sound for the buttons was way easier than I anticipated. Have fun!</p>
+		</div></a>
+	</div>
+	<h1 id="email">Get in contact with me at any of the following sites. Email: dsulfaro1@gmail.com</h1>
+</div>
+
+
+<!--<div id="contactMe" class="container-fluid">
+	<h1>Hi</h1>
+</div>-->
+
+<nav class="navbar navbar-inverse" id="nav">
+	<div class="container-fluid" id="poop">
+		<div class="collapse navbar-collapse">
+			<ul class="fa-ul">
+				<li id="a"><a href="https://www.facebook.com/dan.sulfaro" target="_blank" class="temp"><i class="fa-li fa fa-facebook-square fa-2x"></i></li></a>
+				<li id="b"><a href="https://github.com/dsulfaro" target="_blank" class="temp"><i class="fa-li fa fa-github fa-2x"></i></li>
+				<li id="c"><a href="https://www.linkedin.com/in/daniel-sulfaro-26a8b1b4" target="_blank" class="temp"><i class="fa-li fa fa-linkedin fa-2x"></i></li>
+				<li id="d"><a href="https://angel.co/daniel-sulfaro" target="_blank" class="temp"><i class="fa-li fa fa-angellist fa-2x"></i></li>
+			</ul>
+		</div>
+	</div><!--container fluid-->
+</nav>
+
+</body>
+</html>
