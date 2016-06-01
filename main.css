@@ -187,15 +187,19 @@ a:hover{
 
 #a{
 	margin-left: 45%;
+	padding-left: 10px;
 }
 #b{
 	margin-left: 49%;
+	padding-left: 10px;
 }
 #c{
 	margin-left: 53%;
+	padding-left: 10px;
 }
 #d{
 	margin-left: 57%;
+	padding-left: 10px;
 }
 
 .temp{
