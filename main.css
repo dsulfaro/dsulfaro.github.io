@@ -130,6 +130,7 @@ a:hover{
 	padding-top:20px;
 	background-color: #E5E5E5;
 	color: #222;
+	padding-bottom: 50px;
 }
 
 .project{
@@ -171,7 +172,7 @@ a:hover{
 
   
 #contactMe{
-	padding-top: 10px;
+	padding: 20px;
 	background-color: black;
 }
 li{
