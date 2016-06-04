@@ -8,7 +8,7 @@
 html, body{
     height: 100%;
     color: #FFF;
-    font-family: myFirstFont;
+    font-family: helvetica;
 }
 
 #nav{
@@ -40,10 +40,19 @@ html, body{
    	padding-bottom: 7%;
 }
 
+#img_a{
+	width: 250px;
+}
+
 #aboutMeBox{
+	margin: 100px;
+	margin-top: -10px;
+	margin-bottom: -50px;
+	padding: 10px;
 	color: #222;
 	background-color: #E5E5E2;
 	border: 10px solid #14213D;
+	border-radius: 20px;
 }
 
 .parallax{
@@ -54,9 +63,13 @@ html, body{
 }
 
 #profile{
-	margin: auto;
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 20px;
 	border: 10px solid #14213D;
 	border-radius: 20px;
+	height: 250px;
+
 }
 
 
@@ -69,7 +82,12 @@ html, body{
 	color: #222;
 }
 
+#schoolDesc{
+	text-align: center;
+}
+
 #edTitle{
+	text-align: center;
 	font-size: 34px;
 }
 
@@ -79,7 +97,7 @@ html, body{
 }
 
 .coursework{
-	margin-left: 30px;
+	text-align: center;
 }
 
 .course{
@@ -105,6 +123,12 @@ a:hover{
 
 .study > li{
 	padding-bottom: 10px;
+	font-size: 20px;
+}
+
+#languages{
+	text-align: center;
+	width: 100%;
 }
 
 #languages > li {
@@ -113,7 +137,7 @@ a:hover{
 	font-size: 18px;
 	background-color: #FCA311;
 	border-radius: 50px;
-	width: 80px;
+	width: 85px;
 	text-align: center;
 }
   
@@ -147,8 +171,8 @@ a:hover{
 	background-color: #14213D;
 	text-align: center;
 	border-radius: 20px;
-	height: 500px;
 	border: 10px solid #e5e5e5;
+	padding-bottom: 15px;
 }
 
 .project > h2{
@@ -174,7 +198,7 @@ a:hover{
 
 .project > p{
 	color: white;
-	font-size: 23px;
+	font-size: 20px;
 	margin-top: 5px;
 }
 
@@ -195,7 +219,7 @@ a:hover{
 	padding: 20px;
 	background-color: black;
 }
-li{
+#social > li{
 	display: inline;
 }
 
