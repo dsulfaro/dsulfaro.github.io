@@ -11,6 +11,11 @@ html, body{
     font-family: helvetica;
 }
 
+#fad{
+	opacity: 0;
+}
+
+
 #nav{
 	color: white;
 	background-color: #000;
@@ -49,6 +54,7 @@ html, body{
 	background-color: #E5E5E2;
 	border: 10px solid #14213D;
 	border-radius: 20px;
+	text-align: center;
 }
 
 .parallax{
@@ -65,6 +71,7 @@ html, body{
 	border: 10px solid #14213D;
 	border-radius: 20px;
 	height: 250px;
+	opacity: 0;
 
 }
 

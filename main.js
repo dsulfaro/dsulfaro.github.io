@@ -1,5 +1,10 @@
 $(document).ready(function(){
 
+	$("#fad").fadeTo(1500, 1);
+	setTimeout(function(){
+		$("#profile").fadeTo(1000, 1);
+	}, 500);
+
 	$(".project").mouseenter(function(){
 		$(this).fadeTo(100, 0.5);
 	});
