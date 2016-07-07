@@ -217,6 +217,61 @@ a:hover{
 	color: white;
 }
 
+
+
+
+#oreo{
+	margin-top: -20px;
+	margin-bottom: -10px;
+	padding: 0px;
+	padding-bottom: 50px;
+	background-color: #AAA;
+}
+
+#oreo > h1{
+	font-size: 300%;
+	padding-top: 30px;
+}
+
+.cookieRow{
+	margin-left: 10px;
+}
+
+.cookie{
+	height: 300px;
+	width: 400px;
+	border-radius: 15px;
+	cursor: pointer;
+}
+
+.modal{
+	margin-top: 8%;
+	color: white;
+}
+
+.modal-header{
+	background-color: #2C1358;
+	text-align: center;
+}
+
+.modal-body{
+	background-color: #2C1358;
+	text-align: center;
+}
+
+.modal-body>h4{
+	background-color: #2C1358;
+	text-align: center;
+}
+
+.modal-footer{
+	background-color: #2C1358;
+	text-align: center;
+}
+
+
+.cookie:hover {opacity: 0.7;}
+
   
 #contactMe{
 	padding: 20px;
