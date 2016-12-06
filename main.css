@@ -11,10 +11,6 @@ html, body{
     font-family: helvetica;
 }
 
-#fad{
-	opacity: 0;
-}
-
 
 #nav{
 	color: white;
@@ -39,10 +35,10 @@ html, body{
 #aboutMe{
 	padding-top: 10%;
 	background-image:url("https://images.unsplash.com/photo-1453928582365-b6ad33cbcf64?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=8f794883c2919de1280c55ec74d109a2");
-   	width: 100%;
-    background-size: cover;
-   	background-position: center;
-   	padding-bottom: 7%;
+ 	width: 100%;
+  background-size: cover;
+ 	background-position: center;
+ 	padding-bottom: 7%;
 }
 
 #aboutMeBox{
@@ -55,6 +51,11 @@ html, body{
 	border: 10px solid #14213D;
 	border-radius: 20px;
 	text-align: center;
+  opacity: 0.9;
+}
+
+#aboutMeBox > * {
+  opacity: 1;
 }
 
 .parallax{
@@ -71,8 +72,12 @@ html, body{
 	border: 10px solid #14213D;
 	border-radius: 20px;
 	height: 250px;
-	opacity: 0;
+  transition: all 0.2s;
+}
 
+#profile:hover {
+  height: 270px;
+  box-shadow: 5px 5px 20px #333;
 }
 
 
@@ -143,7 +148,7 @@ a:hover{
 	width: 95px;
 	text-align: center;
 }
-  
+
  #school{
  	color: black;
  }
@@ -176,6 +181,14 @@ a:hover{
 	border-radius: 20px;
 	border: 10px solid #e5e5e5;
 	padding-bottom: 15px;
+  font-size: 100%;
+  transition: all 0.2s;
+}
+
+.project:hover {
+  transform: translate(-10px, -10px);
+  box-shadow: 10px 10px 10px grey;
+  opacity: 0.8;
 }
 
 .project > h2{
@@ -272,7 +285,7 @@ a:hover{
 
 .cookie:hover {opacity: 0.7;}
 
-  
+
 #contactMe{
 	padding: 20px;
 	background-color: black;
