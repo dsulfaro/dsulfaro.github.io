@@ -51,6 +51,7 @@ html, body{
   display: flex;
   justify-content: center;
   transition: all 0.3s;
+  align-items: center;
 }
 
 #aboutMeBox > h2 {
