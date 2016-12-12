@@ -42,20 +42,25 @@ html, body{
 }
 
 #aboutMeBox{
-	margin: 100px;
-	margin-top: -10px;
-	margin-bottom: -50px;
-	padding: 10px;
-	color: #222;
-	background-color: #E5E5E2;
-	border: 10px solid #14213D;
-	border-radius: 20px;
-	text-align: center;
+  color: #333;
+  background-color: white;
   opacity: 0.9;
+  width: 75%;
+  padding: 20px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  transition: all 0.3s;
 }
 
-#aboutMeBox > * {
+#aboutMeBox > h2 {
+  padding: 20px;
+}
+
+#aboutMeBox:hover {
   opacity: 1;
+  box-shadow: 10px 10px 10px grey;
+  transform: translate(-10px, -10px);
 }
 
 .parallax{
@@ -66,20 +71,8 @@ html, body{
 }
 
 #profile{
-	display: block;
-	margin: 0 auto;
-	margin-bottom: 20px;
-	border: 10px solid #14213D;
-	border-radius: 20px;
-	height: 250px;
-  transition: all 0.2s;
-}
 
-#profile:hover {
-  height: 270px;
-  box-shadow: 5px 5px 20px #333;
 }
-
 
 
 
@@ -112,7 +105,7 @@ html, body{
 	background-color: #FCA311;
 	text-align: center;
 	padding: 10px;
-	border-radius: 20px;
+	border-radius: 10px;
 	color: #222;
 }
 
@@ -178,7 +171,7 @@ a:hover{
 .project{
 	background-color: #14213D;
 	text-align: center;
-	border-radius: 20px;
+	border-radius: 10px;
 	border: 10px solid #e5e5e5;
 	padding-bottom: 15px;
   font-size: 100%;
@@ -194,7 +187,7 @@ a:hover{
 .project > h2{
 	background-color: #FCA311;
 	padding: 10px;
-	border-radius: 20px;
+	border-radius: 10px;
 	border: 5px solid white;
 }
 
@@ -202,7 +195,7 @@ a:hover{
 	margin-top: 5px;
 	height: 40%;
 	width: 40%;
-	border-radius: 20px;
+	border-radius: 10px;
 	width: 310px;
 	border: 3px solid white;
 }
